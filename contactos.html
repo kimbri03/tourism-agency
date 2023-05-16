@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<title>Servicios Turisticos</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+<link rel="stylesheet" href="flexsliderpersonal.css" type="text/css">
+<!--
+-->
+<link rel="stylesheet" href="estilos/estilos.css">
+
+<link rel="shorcut icon" href="img/favicon.png">
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+<nav class="cabeza navbar navbar-expand-lg navbar-dark  fixed-top">
+<div class="container">
+  <a class="navbar-brand" href="index.html">
+	<img src="img/logo.png" width="250px">	
+</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="promociones.html">Promociones</a>
+      </li>
+         <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="traslados.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Servicios
+        </a>
+        <div class="dropdown-menu bg-info" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="traslados.html">Traslados</a>
+          <a class="dropdown-item" href="guias.html">Guia de Trabajo</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="tours.html" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          City Tours
+        </a>
+        <div class="dropdown-menu bg-info" aria-labelledby="navbarDropdownMenuLink">
+         <a class="dropdown-item" href="city.html">City Tours Lima</a>
+          <a class="dropdown-item" href="tours.html">Lima y Paracas</a>
+          <a class="dropdown-item" href="tourslima.html">Lima - Paracas e Ica</a>
+          <a class="dropdown-item" href="toursica.html">Lima - Paracas - Ica y Nazca</a>
+        </div>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="galeria.html">Galeria de Fotos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contactos.html">Contáctenos</a>
+      </li>
+    </ul>
+  </div>
+ </div>
+</nav>
+
+
+
+
+<!--Contactos-->
+	<section class="bg-light mt-5 py-5">
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col-lg-6">
+					<h3 class="col-xs text-center">CONTACTENOS</h3>
+					<p>Dejanos tu Mensaje y nos comunicamos contigo.</p>
+					<form action="enviar.php" method="post">
+						<div class="input-group mb-2">
+       					 <div class="input-group-prepend">
+         				 <i class="fas fa-user input-group-text"></i>
+       					 </div>
+       					 <input type="text" class="form-control" placeholder="Usuario" name="usuario">
+      					</div>
+      					
+      					<div class="input-group mb-2">
+       					 <div class="input-group-prepend">
+         				 <i class="fas fa-pencil-alt input-group-text"></i>
+         				
+       					 </div>
+       					 <input type="text" class="form-control" placeholder="Email" name="email">
+      					</div>
+      					
+      					
+      					
+      					<div class="input-group mb-2">
+       					 <div class="input-group-prepend">
+         				 <i class="fas fa-envelope input-group-text"></i>
+       					 </div>
+       						<textarea name="mensaje" class="form-control" id="" cols="30" rows="10" placeholder="mensaje" ></textarea>
+      					</div>
+      				
+      					<input type="submit" value="Enviar" class="form-control bg-primary text-white">
+					</form>
+				</div>
+				
+				<div class="col-lg-6">
+			<div class="maps">
+            <h3>Oficinas</h3>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.9872432401476!2d149.13705041482586!3d-35.18187049582337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b1654855092e0d3%3A0x15c5132f64562e49!2sPallin%20St%2C%20Gungahlin%20ACT%202912%2C%20Australia!5e0!3m2!1ses-419!2spe!4v1594669166483!5m2!1ses-419!2spe" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <ul class="vineta smallarrow ml-3">
+            <li class="buen">Correo Electronico: <a href="mailto:arviritours@gmail.com">miguel_pallin@hotmail.com</a></li>
+            <li class="buen">Cel: 961 923 339 // (01))362-1250</li>
+           </ul>
+            </div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+
+<!--Iconos de Redes Sociales-->
+<section class="btns" id="iconos">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="iconos text-center p-5 text-white">
+				
+					<a href="https://www.facebook.com" target="_blank"><i class="ico fab fa-facebook-f"></i></a>
+					
+					<a href="https://www.youtube.com" target="_blank"><i class="ico fab fa-youtube"></i></a>
+					
+					<a href="https://pe.linkedin.com/" target="_blank"><i class="ico fab fa-linkedin-in"></i></a>
+					
+					<a href="https://web.whatsapp.com/" target="_blank"><i class="ico fab fa-whatsapp"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</section>
+
+
+
+
+
+
+
+<footer id="pie" class="p-4">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 text-white text-center">
+				<p>Dirección: Avenida Miguel Pallin 2020 frente a los Robles.</p>
+			</div>
+			
+			<div class="col-lg-3 text-white text-center">
+				<p>Cell: 961 923 339 //
+				<br>
+				 Cell: (01)362-1250
+				 </p>
+			</div>
+			
+			<div class="col-lg-3 text-white text-center">
+				<p>e-mail
+				<br>
+					miguel_pallin@hotmail.com
+				</p>
+			</div>
+			
+			
+				<div class="col-lg-3 text-white text-center">
+				<p>
+				<span class="fas fa-book-open"></span>
+				<br>
+				Libro de Reclamaciones
+				</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="jquery.flexslider.js"></script>
+<!-- Place in the <head>, after the three links -->
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+		touch: true,
+		pauseOnAction:false,
+		pauseOnHover:false
+	});
+  });
+</script>
+</body>
+</html>
